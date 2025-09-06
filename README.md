@@ -89,7 +89,7 @@ earthquake-visualizer/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/mr.farooqui038501/earthquake-visualizer.git
+git clone https://github.com/Mrfarooqui038501/EarthQuake-Visulaizer.git
 cd earthquake-visualizer
 ```
 
@@ -259,7 +259,7 @@ SOFTWARE.
 ## 👨‍💻 Author
 
 **Arman Farooqui**
-- GitHub: [@mrfarooqui038501](https://github.com/mrfarooqui038501)
+- GitHub: https://github.com/Mrfarooqui038501/EarthQuake-Visulaizer.git
 - Email: armanfarooqui078601@gmail.com
 
 ---
@@ -273,5 +273,4 @@ SOFTWARE.
 
 ---
 
-**Built with ❤️ for earthquake awareness and preparedness**#   E a r t h Q u a k e - V i s u l a i z e r  
- 
+**Built with ❤️ for earthquake awareness and preparedness**
