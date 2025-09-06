@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import L from "leaflet";
 import HeatmapLayer from "./HeatmapLayer";
 
-// Fix default marker icons
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconUrl:
@@ -12,7 +11,6 @@ L.Icon.Default.mergeOptions({
     "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 
-// Helper component to fly map
 function FlyToLocation({ coordinates }) {
   const map = useMap();
   useEffect(() => {
@@ -32,7 +30,6 @@ export default function EarthquakeMap({ data, viewMode, selected }) {
     );
   }
 
-  // Prepare heatmap points (lat, lng, intensity)
   const heatmapPoints = data.map((eq) => [
     eq.coordinates[0], // lat
     eq.coordinates[1], // lng

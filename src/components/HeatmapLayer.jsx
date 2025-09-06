@@ -9,14 +9,12 @@ export default function HeatmapLayer({ points }) {
   useEffect(() => {
     if (!map) return;
 
-    // Create heatmap layer
     const heatLayer = L.heatLayer(points, {
       radius: 20,
       blur: 15,
       maxZoom: 7,
     }).addTo(map);
 
-    // Cleanup on unmount
     return () => {
       map.removeLayer(heatLayer);
     };
